@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <append xpath="/item_modifiers">
+        <item_modifier name="modArmorPlatingKevlar" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="UnlockedBy" value="modArmorPlatingKevlarSchematic"/>
+            <property name="DisplayType" value="modArmor"/>
+            <property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+            <effect_group tiered="false">
+                <passive_effect name="PhysicalDamageResist" operation="base_add" value="3"/>
+            </effect_group>
+        </item_modifier>
+
+        <item_modifier name="modArmorProfiledFittings" installable_tags="armor" modifier_tags="movement" blocked_tags="noMods,padded" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="UnlockedBy" value="modArmorProfiledFittingsSchematic"/>
+            <property name="DisplayType" value="modArmorMobility"/>
+            <effect_group tiered="false">
+                <passive_effect name="Mobility" operation="perc_add" value=".05"/>
+                <passive_effect name="StaminaChangeOT" operation="perc_add" value=".042" tags="walking"/>
+                <passive_effect name="StaminaChangeOT" operation="perc_add" value=".112" tags="running"/>
+                <display_value name="dStaminaChangeOT" value=".112"/>
+            </effect_group>
+        </item_modifier>
+
+        <item_modifier name="modArmorProfiledMuffledConnectors" installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,padded" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="UnlockedBy" value="modArmorProfiledMuffledConnectorsSchematic"/>
+            <property name="DisplayType" value="modNoiseReduction"/>
+            <property name="Material" value="Msteel"/>
+
+            <effect_group tiered="false">
+                <passive_effect name="NoiseMultiplier" operation="perc_add" value="-.12"/>
+                <display_value name="dNoiseMultiplier" value="-.12"/>
+            </effect_group>
+        </item_modifier>
+    </append>
+</configs>

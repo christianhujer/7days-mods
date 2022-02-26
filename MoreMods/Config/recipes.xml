@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <append xpath="/recipes">
+        <recipe name="modGunMeleeBlessedMetal" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceSilverNugget" count="50"/>
+            <ingredient name="resourceMilitaryFiber" count="10"/>
+            <ingredient name="resourceAcid" count="3"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceSpring" count="10"/>
+        </recipe>
+
+        <recipe name="modArmorPlatingKevlar" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceMilitaryFiber" count="5"/>
+            <ingredient name="armorMilitarySetParts" count="2"/>
+            <ingredient name="resourceDuctTape" count="2"/>
+            <ingredient name="resourceMechanicalParts" count="4"/>
+            <ingredient name="resourceSewingKit" count="1"/>
+        </recipe>
+
+        <recipe name="modArmorProfiledFittings" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceScrapPolymers" count="30"/>
+            <ingredient name="resourceMilitaryFiber" count="5"/>
+            <ingredient name="resourceDuctTape" count="3"/>
+            <ingredient name="resourceMechanicalParts" count="16"/>
+            <ingredient name="resourceSewingKit" count="3"/>
+        </recipe>
+
+        <recipe name="modArmorProfiledMuffledConnectors" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceMilitaryFiber" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="50"/>
+            <ingredient name="resourceDuctTape" count="2"/>
+            <ingredient name="resourceGoldNugget" count="10"/>
+            <ingredient name="resourceSewingKit" count="2"/>
+        </recipe>
+    </append>
+</configs>
