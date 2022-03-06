@@ -15,6 +15,7 @@
         <item name="modArmorProfiledMuffledConnectors"/>
     </append>
     <append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+        <item name="cntMunitionsBoxArmySchematic"/>
         <item name="modArmorPlatingKevlarSchematic"/>
         <item name="modArmorProfiledFittingsSchematic"/>
         <item name="modArmorProfiledMuffledConnectorsSchematic"/>

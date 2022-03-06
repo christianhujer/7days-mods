@@ -32,5 +32,12 @@
             <ingredient name="resourceGoldNugget" count="10"/>
             <ingredient name="resourceSewingKit" count="2"/>
         </recipe>
+
+        <recipe name="cntMunitionsBoxArmy" count="1" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="40"/>
+            <ingredient name="resourceSpring" count="5"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceMilitaryFiber" count="5"/>
+        </recipe>
     </append>
 </configs>

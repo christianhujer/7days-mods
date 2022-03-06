@@ -30,4 +30,6 @@ More mods for armor, weapons, and vehicles.
 
 The corresponding schematics are included and added to the relevant loot groups as well as traders.
 
-Also, this mod enables the already included Blessed Metal mod, but changes its crafting recipe to include silver nuggets.
+Also, this mod adds/enables:
+* The already included Blessed Metal mod, but changes its crafting recipe to include silver nuggets.
+* Crafting (recipe) of an army ammunitions box.

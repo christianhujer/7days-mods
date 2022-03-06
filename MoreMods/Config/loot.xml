@@ -7,6 +7,7 @@
     <append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
         <item name="modArmorPlatingKevlarSchematic"/>
         <item name="modArmorProfiledMuffledConnectorsSchematic" loot_prob_template="low"/>
+        <item name="cntMunitionsBoxArmySchematic"/>
     </append>
     <append xpath="/lootcontainers/lootgroup[@name='modGunMeleeT3']">
         <item name="modGunMeleeBlessedMetal" loot_prob_template="low"/>
