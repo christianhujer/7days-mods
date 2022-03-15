@@ -39,5 +39,12 @@
             <ingredient name="resourceMechanicalParts" count="5"/>
             <ingredient name="resourceMilitaryFiber" count="5"/>
         </recipe>
+
+        <recipe name="apparelCoatMatrixDuster" count="1" tags="learnable">
+            <ingredient name="resourceLeather" count="25"/>
+            <ingredient name="resourceSewingKit" count="3"/>
+            <ingredient name="resourceMilitaryFiber" count="10"/>
+            <ingredient name="resourceAcid" count="2"/>
+        </recipe>
     </append>
 </configs>

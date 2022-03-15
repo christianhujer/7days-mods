@@ -20,4 +20,10 @@
         <item name="modArmorProfiledFittingsSchematic"/>
         <item name="modArmorProfiledMuffledConnectorsSchematic"/>
     </append>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='clothes']">
+        <item name="apparelCoatMatrixDuster" prob="0.1"/>
+    </append>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='warmClothes']">
+        <item name="apparelCoatMatrixDuster" prob="0.3"/>
+    </append>
 </configs>

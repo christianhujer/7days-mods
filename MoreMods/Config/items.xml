@@ -44,5 +44,24 @@
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
             </effect_group>
         </item>
+
+        <item name="apparelCoatMatrixDuster">
+            <property name="Extends" value="apparelCoatLeatherDuster"/>
+            <property name="DisplayType" value="clothing"/>
+            <property name="UnlockedBy" value="perkNeedleAndThreadDusters"/>
+            <property name="Group" value="Clothing"/>
+            <property name="EquipSlot" value="Chest"/>
+            <proeprty name="DescriptionKey" value="apparelLeatherClothesGroupDesc"/>
+            <effect_group tiered="false">
+                <passive_effect name="ModSlots" operation="base_set" value="2"/>
+                <passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+                <passive_effect name="HypothermalResist" operation="base_add" value="13.5,17.5"/>
+                <passive_effect name="HyperthermalResist" operation="base_add" value="17.5,22.5"/>
+                <passive_effect name="RunSpeed" operation="perc_add" value=".2"/><display_value name="dRunSpeed" value=".2"/>
+                <passive_effect name="HealthLoss" operation="perc_add" value="-.1">
+                    <requirement name="ProgressionLevel" progression_name="perkBatterUpGear" operation="Equals" value=".05"/>
+                </passive_effect>
+            </effect_group>
+        </item>
     </append>
 </configs>
