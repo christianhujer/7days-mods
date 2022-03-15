@@ -45,13 +45,24 @@
             </effect_group>
         </item>
 
+        <item name="apparelCoatMatrixDusterSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="apparelCoatMatrixDuster"/>
+            <property name="Unlocks" value="apparelCoatMatrixDuster"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCoatMatrixDuster" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
         <item name="apparelCoatMatrixDuster">
             <property name="Extends" value="apparelCoatLeatherDuster"/>
             <property name="DisplayType" value="clothing"/>
             <property name="UnlockedBy" value="perkNeedleAndThreadDusters"/>
             <property name="Group" value="Clothing"/>
             <property name="EquipSlot" value="Chest"/>
-            <proeprty name="DescriptionKey" value="apparelLeatherClothesGroupDesc"/>
+            <property name="DescriptionKey" value="apparelCoatMatrixDusterDesc"/>
             <effect_group tiered="false">
                 <passive_effect name="ModSlots" operation="base_set" value="2"/>
                 <passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>

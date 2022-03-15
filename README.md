@@ -23,6 +23,7 @@ More mods for armor, weapons, and vehicles.
 </thead>
 <tbody>
 <tr><td><img alt="Kevlar Armor Plating Mod" src="MoreMods/UIAtlases/ItemIconAtlas/modArmorPlatingKevlar.png"/></td><td>Kevlar Armor Plating<br/>Kevlar is so much better than steal.</td></tr>
+<tr><td><img alt="Matrix Duster" src="MoreMods/UIAtlases/ItemIconAtlas/apparelCoatMatrixDuster.png"/></td><td>Matrix Duster<br/>Duster with attributes of the college jacket (better run speed).</td></tr>
 <tr><td><img alt="Profiled Fittings Mod" src="MoreMods/UIAtlases/ItemIconAtlas/modArmorProfiledFittings.png"/></td><td>Profiled Fittings<br/>Ever wondered what combinding tailoring and science looks like? Your clothes never felt more comfortable.</td></tr>
 <tr><td><img alt="Profiled Muffled Connectors Mod" src="MoreMods/UIAtlases/ItemIconAtlas/modArmorProfiledMuffledConnectors.png"/></td><td>Profiled Muffled Connectors<br/>Science the shit out of this noise. Noise? Which noise?</td></tr>
 </tbody>

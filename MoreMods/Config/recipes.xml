@@ -41,10 +41,11 @@
         </recipe>
 
         <recipe name="apparelCoatMatrixDuster" count="1" tags="learnable">
-            <ingredient name="resourceLeather" count="25"/>
+            <ingredient name="apparelCoatLeatherDuster" count="3"/>
             <ingredient name="resourceSewingKit" count="3"/>
             <ingredient name="resourceMilitaryFiber" count="10"/>
             <ingredient name="resourceAcid" count="2"/>
+            <ingredient name="drinkCanMegaCrush" count="10"/>
         </recipe>
     </append>
 </configs>
