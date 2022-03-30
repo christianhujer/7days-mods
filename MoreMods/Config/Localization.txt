@@ -10,3 +10,5 @@ modArmorProfiledMuffledConnectorsSchematic,item_modifiers,mod,,,Adv.Muffled Conn
 apparelCoatMatrixDuster,items,Clothes,,,Matrix Duster,,Matrixmantel,Gabardina de cuero,Long manteau en cuir,Spolverino di pelle,革のダスターコート,가죽 먼지떨이,Skórzany prochowiec,Sobretudo de Couro,Кожаный плащ,Deri Kıyafet,皮风衣,皮風衣,Gabardina de cuero
 apparelCoatMatrixDusterDesc,items,Clothes,,,Like a leather duster but makes you run faster. Neo would be proud!,,Wie ein Lederstaubmantel, aber macht dich schneller. Neo wäre stolz!,,,,,,,,,,,,
 apparelCoatMatrixDusterSchematic,items,Clothes,,,Matrix Duster Schematic,,Matrixmantel Schnittmuster,,,,,,,,,,,,
+apparelCigarBlackHavana,items,Clothes,,,Black Havana Cigar,,Schwarze Havanna Zigarre,,,,,,,,,,,,
+apparelCigarBlackHavanaDesc,items,Clothes,,,Look smartly intimidating and get a much better deal from traders. Also boosts strength!,,"Sieh clever einschüchternd aus, um einen viel besseren Preis bei Händlern zu bekommen. Erhöht auch die Stärke!",,,,,,,,,,,,,

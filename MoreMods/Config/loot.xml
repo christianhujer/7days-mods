@@ -8,6 +8,7 @@
         <item name="modArmorPlatingKevlarSchematic"/>
         <item name="modArmorProfiledMuffledConnectorsSchematic" loot_prob_template="low"/>
         <item name="cntMunitionsBoxArmySchematic"/>
+        <item name="apparelCigarBlackHavanaSchematic" loot_prob_template="low"/>
     </append>
     <append xpath="/lootcontainers/lootgroup[@name='modGunMeleeT3']">
         <item name="modGunMeleeBlessedMetal" loot_prob_template="low"/>

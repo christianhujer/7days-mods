@@ -47,5 +47,12 @@
             <ingredient name="resourceAcid" count="2"/>
             <ingredient name="drinkCanMegaCrush" count="10"/>
         </recipe>
+
+        <recipe name="apparelCigarBlackHavana" count="1" tags="learnable">
+            <ingredient name="resourceYuccaFibers" count="500"/>
+            <ingredient name="oldCash" count="1000"/>
+            <ingredient name="casinoCoin" count="500"/>
+            <ingredient name="resourceTestosteroneExtract" count="1"/>
+        </recipe>
     </append>
 </configs>
