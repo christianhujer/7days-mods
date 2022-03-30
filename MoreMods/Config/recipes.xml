@@ -54,5 +54,13 @@
             <ingredient name="casinoCoin" count="500"/>
             <ingredient name="resourceTestosteroneExtract" count="1"/>
         </recipe>
+
+        <recipe name="modVehicleSuperChargerAdvanced" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceMilitaryFiber" count="20"/>
+            <ingredient name="resourceMetalPipe" count="20"/>
+            <ingredient name="resourceRadiator" count="2"/>
+            <ingredient name="resourceMechanicalParts" count="8"/>
+            <ingredient name="resourceSilverNugget" count="20"/>
+        </recipe>
     </append>
 </configs>

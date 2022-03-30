@@ -27,6 +27,7 @@ More mods for armor, weapons, and vehicles.
 <tr><td><img alt="Profiled Fittings Mod" src="MoreMods/UIAtlases/ItemIconAtlas/modArmorProfiledFittings.png"/></td><td>Profiled Fittings<br/>Ever wondered what combinding tailoring and science looks like? Your clothes never felt more comfortable.</td></tr>
 <tr><td><img alt="Profiled Muffled Connectors Mod" src="MoreMods/UIAtlases/ItemIconAtlas/modArmorProfiledMuffledConnectors.png"/></td><td>Profiled Muffled Connectors<br/>Science the shit out of this noise. Noise? Which noise?</td></tr>
 <tr><td><img alt="Black Havana Cigar" src="MoreMods/UIAtlases/ItemIconAtlas/apparelCigarBlackHavana.png"/></td><td>Black Havana Cigar<br/>You thought cigars are intimidating? Wait until you see this one!</td></tr>
+<tr><td><img alt="Advanced Supercharter" src="MoreMods/UIAtlases/ItemIconAtlas/modVehicleSuperChargerAdvanced.png"/></td><td>Advanced Supercharger<br/>Moar speed!</td></tr>
 </tbody>
 </table>
 

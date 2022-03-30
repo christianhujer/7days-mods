@@ -25,4 +25,7 @@
     <append xpath="/lootcontainers/lootgroup[@name='clothingTestLoot']">
         <item name="apparelCoatLeatherDuster" mods="dye" mod_chance="0"/>
     </append>
+    <append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics03']">
+        <item name="modVehicleSuperChargerAdvancedSchematic"/>
+    </append>
 </config>

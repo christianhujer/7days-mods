@@ -12,3 +12,6 @@ apparelCoatMatrixDusterDesc,items,Clothes,,,Like a leather duster but makes you 
 apparelCoatMatrixDusterSchematic,items,Clothes,,,Matrix Duster Schematic,,Matrixmantel Schnittmuster,,,,,,,,,,,,
 apparelCigarBlackHavana,items,Clothes,,,Black Havana Cigar,,Schwarze Havanna Zigarre,,,,,,,,,,,,
 apparelCigarBlackHavanaDesc,items,Clothes,,,Look smartly intimidating and get a much better deal from traders. Also boosts strength!,,"Sieh clever einschüchternd aus, um einen viel besseren Preis bei Händlern zu bekommen. Erhöht auch die Stärke!",,,,,,,,,,,,,
+modVehicleSuperChargerAdvanced,item_modifiers,Mod,,,Vehicle Advanced Super Charger Mod,,Verbessertes Fahrzeug-Superlader-Mod,,,,,,,,,,,,
+modVehicleSuperChargerAdvancedDesc,item_modifiers,Mod,,,This advanced super charger mod dramatically increases vehicle acceleration and top speed.,,Diese verbesserte Superlader-Modifikation erhöht drastisch die Fahrzeugbeschleunigung und Höchstgeschwindigkeit.,,,,,,,,,,,,
+modVehicleSuperChargerAdvancedSchematic,item_modifiers,Mod,,,Advanced Vehicle Super Charger Mod Schematic,,Bauplan – Verbessertes Fahrzeug-Superlader-Mod,,,,,,,,,,,,

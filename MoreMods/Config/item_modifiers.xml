@@ -34,5 +34,15 @@
                 <display_value name="dNoiseMultiplier" value="-.12"/>
             </effect_group>
         </item_modifier>
+
+        <item_modifier name="modVehicleSuperChargerAdvanced" installable_tags="vengine" modifier_tags="speed" blocked_tags="noMods" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="UnlockedBy" value="modVehicleSuperChargerAdvancedSchematic"/>
+            <property name="CustomIcon" value="modVehicleSuperChargerAdvanced"/>
+            <effect_group tiered="false">
+                <passive_effect name="VehicleVelocityMaxPer" operation="perc_set" value="3"/>
+                <passive_effect name="VehicleVelocityMaxTurboPer" operation="perc_set" value="3.3"/>
+            </effect_group>
+        </item_modifier>
     </append>
 </configs>
