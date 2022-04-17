@@ -5,7 +5,18 @@ Mods for 7 Days to Die
 
 ### Linux
 
+#### 7 Days to Die Alpha 20.4 and newer
+
 ```bash
+mkdir -p ~/.local/share/7DaysToDie/Mods/
+git clone https://github.com/christianhujer/7days-mods.git
+ln -s $(realpath 7days-mods/MoreMods) ~/.local/share/7DaysToDie/Mods/
+```
+
+#### 7 Days to Die Alpha 20.3 and older
+
+```bash
+mkdir -p ~/steam/steam/steamapps/common/7\ Days\ To\ Die/Mods/
 git clone https://github.com/christianhujer/7days-mods.git
 ln -s $(realpath 7days-mods/MoreMods) ~/steam/steam/steamapps/common/7\ Days\ To\ Die/Mods/
 ```
