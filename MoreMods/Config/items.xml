@@ -45,36 +45,6 @@
             </effect_group>
         </item>
 
-        <item name="apparelCoatMatrixDusterSchematic">
-            <property name="Extends" value="schematicNoQualityMaster"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="CustomIcon" value="apparelCoatMatrixDuster"/>
-            <property name="Unlocks" value="apparelCoatMatrixDuster"/>
-            <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCoatMatrixDuster" operation="set" value="1"/>
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-            </effect_group>
-        </item>
-
-        <item name="apparelCoatMatrixDuster">
-            <property name="Extends" value="apparelCoatLeatherDuster"/>
-            <property name="DisplayType" value="clothing"/>
-            <property name="UnlockedBy" value="perkNeedleAndThreadDusters"/>
-            <property name="Group" value="Clothing"/>
-            <property name="EquipSlot" value="Chest"/>
-            <property name="DescriptionKey" value="apparelCoatMatrixDusterDesc"/>
-            <effect_group tiered="false">
-                <passive_effect name="ModSlots" operation="base_set" value="2"/>
-                <passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
-                <passive_effect name="HypothermalResist" operation="base_add" value="13.5,17.5"/>
-                <passive_effect name="HyperthermalResist" operation="base_add" value="17.5,22.5"/>
-                <passive_effect name="RunSpeed" operation="perc_add" value=".2"/><display_value name="dRunSpeed" value=".2"/>
-                <passive_effect name="HealthLoss" operation="perc_add" value="-.1">
-                    <requirement name="ProgressionLevel" progression_name="perkBatterUpGear" operation="Equals" value=".05"/>
-                </passive_effect>
-            </effect_group>
-        </item>
-
         <item name="apparelCigarBlackHavana">
             <property name="Tags" value="head,clothing,noMods"/>
             <property name="DisplayType" value="clothingCigar"/>
