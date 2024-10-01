@@ -1,5 +1,5 @@
 # 7days-mods
-Mods for 7 Days to Die
+Mods for 7 Days to Die 1.0/1.1.
 
 ## Installation
 
