@@ -1,4 +1,4 @@
-xml_files=$(shell find -name "*.xml")
+xml_files=$(shell find . -name "*.xml")
 
 .PHONY: all
 all: lint
