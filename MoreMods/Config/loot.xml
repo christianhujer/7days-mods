@@ -1,25 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config name="loot">
-    <append xpath="/lootcontainers/lootgroup[@name='modArmorT3']">
-        <item name="modArmorPlatingKevlar"/>
-        <item name="modArmorProfiledMuffledConnectors" loot_prob_template="low"/>
-    </append>
-    <append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
-        <item name="modArmorPlatingKevlarSchematic"/>
-        <item name="modArmorProfiledMuffledConnectorsSchematic" loot_prob_template="low"/>
-        <item name="cntMunitionsBoxArmySchematic"/>
-        <item name="apparelCigarBlackHavanaSchematic" loot_prob_template="low"/>
-    </append>
-    <append xpath="/lootcontainers/lootgroup[@name='modGunMeleeT3']">
-        <item name="modGunMeleeBlessedMetal" loot_prob_template="low"/>
-    </append>
-    <append xpath="/lootcontainers/lootgroup[@name='prefabQuestLoot']">
-        <item name="apparelCoatLeatherDuster" mods="dye" mod_chance="0"/>
-    </append>
-    <append xpath="/lootcontainers/lootgroup[@name='clothingTestLoot']">
-        <item name="apparelCoatLeatherDuster" mods="dye" mod_chance="0"/>
-    </append>
-    <append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics03']">
-        <item name="modVehicleSuperChargerAdvancedSchematic"/>
-    </append>
+<config>
 </config>

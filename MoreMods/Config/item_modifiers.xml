@@ -1,48 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configs>
     <append xpath="/item_modifiers">
-        <item_modifier name="modArmorPlatingKevlar" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
-            <property name="Extends" value="modGeneralMaster"/>
+        <item_modifier name="modArmorPlatingKevlar" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods,heavyArmor" type="attachment">
+            <property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
             <property name="UnlockedBy" value="modArmorPlatingKevlarSchematic"/>
+            <property name="TraderStageTemplate" value="modsTier3"/>
             <property name="DisplayType" value="modArmor"/>
             <property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+
             <effect_group tiered="false">
                 <passive_effect name="PhysicalDamageResist" operation="base_add" value="3"/>
+                <passive_effect name="ElementalDamageResist" operation="base_add" value="15" tags="heat,electrical,radiation,toxic"/>
+                <passive_effect name="ExplosionIncomingDamage" operation="perc_add" value="-.2"/>
             </effect_group>
         </item_modifier>
 
-        <item_modifier name="modArmorProfiledFittings" installable_tags="armor" modifier_tags="movement" blocked_tags="noMods,padded" type="attachment">
-            <property name="Extends" value="modGeneralMaster"/>
+        <item_modifier name="modArmorProfiledFittings" installable_tags="armor" modifier_tags="movement" blocked_tags="noMods,lightArmor" type="attachment">
+            <property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
             <property name="UnlockedBy" value="modArmorProfiledFittingsSchematic"/>
+            <property name="TraderStageTemplate" value="modsTier3"/>
             <property name="DisplayType" value="modArmorMobility"/>
+            <property name="Material" value="Mplastics"/>
+
             <effect_group tiered="false">
-                <passive_effect name="Mobility" operation="perc_add" value=".05"/>
-                <passive_effect name="StaminaChangeOT" operation="perc_add" value=".042" tags="walking"/>
-                <passive_effect name="StaminaChangeOT" operation="perc_add" value=".112" tags="running"/>
-                <display_value name="dStaminaChangeOT" value=".112"/>
+                <passive_effect name="Mobility" operation="perc_add" value=".12"/>
+                <passive_effect name="StaminaChangeOT" operation="perc_add" value=".084" tags="walking"/>
+                <passive_effect name="StaminaChangeOT" operation="perc_add" value=".2248" tags="running"/>
+                <display_value name="dStaminaChangeOT" value=".2248"/>
             </effect_group>
         </item_modifier>
 
-        <item_modifier name="modArmorProfiledMuffledConnectors" installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,padded" type="attachment">
-            <property name="Extends" value="modGeneralMaster"/>
+        <item_modifier name="modArmorProfiledMuffledConnectors" installable_tags="armor" modifier_tags="stealth" blocked_tags="noMods,lightArmor,assassin" type="attachment">
+            <property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
             <property name="UnlockedBy" value="modArmorProfiledMuffledConnectorsSchematic"/>
+            <property name="TraderStageTemplate" value="modsTier3"/>
             <property name="DisplayType" value="modNoiseReduction"/>
             <property name="Material" value="Msteel"/>
+            <effect_group tiered="false">
+                <passive_effect name="NoiseMultiplier" operation="perc_add" value="-.024"/><display_value name="dNoiseMultiplier" value="-.24"/>
+            </effect_group>
+        </item_modifier>
+
+        <item_modifier name="modArmorCigarBlackHavana" installable_tags="armorHead" modifier_tags="cigar" blocked_tags="noMods" type="attachment">
+            <property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+            <property name="CustomIcon" value="modArmorCigarBlackHavana"/>
+            <property name="DisplayType" value="clothingCigar"/>
+            <property name="UnlockedBy" value="perkUrbanCombatCigar"/>
+            <property name="TraderStageTemplate" value="modsTier3"/>
+            <property name="Material" value="Mplants"/>
+            <property name="EconomicValue" value="10000"/>
 
             <effect_group tiered="false">
-                <passive_effect name="NoiseMultiplier" operation="perc_add" value="-.12"/>
-                <display_value name="dNoiseMultiplier" value="-.12"/>
+                <passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="2"/>
+                <passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>
+                <passive_effect name="BarteringBuying" operation="base_add" value=".2"/>
+                <passive_effect name="BarteringSelling" operation="base_add" value=".2"/>
             </effect_group>
         </item_modifier>
 
         <item_modifier name="modVehicleSuperChargerAdvanced" installable_tags="vengine" modifier_tags="speed" blocked_tags="noMods" type="attachment">
             <property name="Extends" value="modGeneralMaster"/>
             <property name="UnlockedBy" value="modVehicleSuperChargerAdvancedSchematic"/>
+            <property name="TraderStageTemplate" value="modsTier3"/>
             <property name="CustomIcon" value="modVehicleSuperChargerAdvanced"/>
             <effect_group tiered="false">
-                <passive_effect name="VehicleVelocityMaxPer" operation="perc_set" value="3"/>
-                <passive_effect name="VehicleVelocityMaxTurboPer" operation="perc_set" value="3.3"/>
+                <passive_effect name="VehicleMotorTorquePer" operation="perc_add" value=".24"/>
+                <passive_effect name="VehicleVelocityMaxPer" operation="perc_add" value=".36"/>
             </effect_group>
         </item_modifier>
+
+        <item_modifier name="modArmorChippedTreasureHunter" installable_tags="armorHead" modifier_tags="attributeBoost" blocked_tags="noMods" type="attachment">
+            <property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+            <property name="CustomIcon" value="modArmorTreasureHunter"/>
+            <property name="CustomIconTint" value="32,32,32"/>
+            <property name="TraderStageTemplate" value="modsTier3"/>
+            <property name="Material" value="Msteel"/>
+            <property name="EconomicValue" value="1000"/>
+
+            <effect_group tiered="false">
+                <passive_effect name="ModSlots" operation="base_set" value="0"/>
+                <passive_effect name="LootStage" operation="base_add" value="20"/>
+                <passive_effect name="PlayerExpGain" operation="perc_add" value=".2"/>
+                <passive_effect name="TreasureBlocksPerReduction" operation="base_add" value="-1"/>
+                <display_value name="dTreasureBlocksPerReduction" value="-1"/>
+                <display_value name="dPlayerExpGain" value=".2"/>
+                <passive_effect name="AttributeLevel" tags="attPerception" operation="base_add" value="2"/>
+                <passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>
+                <passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="2"/>
+                <passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="2"/>
+                <passive_effect name="AttributeLevel" tags="attIntellect" operation="base_add" value="2"/>
+                <passive_effect name="BarteringBuying" operation="base_add" value=".2"/>
+                <passive_effect name="BarteringSelling" operation="base_add" value=".2"/>
+            </effect_group>
+        </item_modifier>
+
     </append>
 </configs>

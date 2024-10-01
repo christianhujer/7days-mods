@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configs>
-    <!-- Enable Blessed Metal -->
-    <append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunMeleeT3']">
-        <item name="modGunMeleeBlessedMetal"/>
-    </append>
-    <append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
-        <item name="modGunMeleeBlessedMetalSchematic"/>
-    </append>
-
-    <!-- Kevlar Armor Plating Mod and Schematic -->
-    <append xpath="/traders/trader_item_groups/trader_item_group[@name='modArmorT3']">
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorMods']">
         <item name="modArmorPlatingKevlar"/>
         <item name="modArmorProfiledFittings"/>
         <item name="modArmorProfiledMuffledConnectors"/>
+        <item name="modArmorCigarBlackHavana"/>
     </append>
-    <append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
-        <item name="cntMunitionsBoxArmySchematic"/>
-        <item name="modArmorPlatingKevlarSchematic"/>
-        <item name="modArmorProfiledFittingsSchematic"/>
-        <item name="modArmorProfiledMuffledConnectorsSchematic"/>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsVehicleMods']">
+        <item name="modVehicleSuperChargerAdvancedSchematic"/>
     </append>
 </configs>
